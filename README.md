@@ -1,2 +1,2 @@
-# advent-of-code-2022
-Advent of code 2022 with Rust
+# Advent of code 2022
+My solution with rust to the advent of code 2022.
