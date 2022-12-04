@@ -24,7 +24,7 @@ fn main() {
                 .unwrap();
             return (a, b, c, d);
         })
-        .filter(|(a, b, c, d)| ((a >= c) && (b <= d)) | ((c >= a) && (d <= b)))
+        .filter(|(a, b, c, d)| !((a < c && b < c) | (a > d && b > d)))
         .count();
 
     println!("{overlapping_entirely}");

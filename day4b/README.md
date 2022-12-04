@@ -1,4 +1,4 @@
-# Day 4b
+# Day 4a
 
 `cd` into this directory and run
 
