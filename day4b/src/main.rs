@@ -19,7 +19,7 @@ fn main() {
                 .iter()
                 .skip(1)
                 .take(4)
-                .map(|m| m.unwrap().as_str().parse::<u32>().unwrap()) //as_str().parse::<u32>().unwrap())
+                .map(|m| m.unwrap().as_str().parse::<u32>().unwrap())
                 .collect_tuple()
                 .unwrap();
             return (a, b, c, d);
