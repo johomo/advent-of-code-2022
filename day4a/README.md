@@ -1,0 +1,7 @@
+# Day 4a
+
+`cd` into this directory and run
+
+```bash
+$ cargo run < input.txt
+```
